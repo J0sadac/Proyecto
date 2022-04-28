@@ -10,11 +10,8 @@ function App() {
     <div>
       {/* <NavBar /> */}
       <h1 className='titulo'>Menu</h1>
+      
       <div className='menu'>
-        <ContenedorDePlatillos />
-        <ContenedorDePlatillos />
-        <ContenedorDePlatillos />
-        <ContenedorDePlatillos />
         <ContenedorDePlatillos />
       </div>
 
