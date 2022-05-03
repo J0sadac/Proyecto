@@ -4,11 +4,15 @@ body{
 }
 
 .titulo{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
     text-align: center;
+
+    margin-top: 70px;
+    margin-bottom: -5px;
 }
 
-.menu{
+.contenedor{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -68,6 +72,36 @@ body{
                 border-width: 3px;
     
                 background-color: white;
+            }
+        }
+    }
+}
+
+.navbar{
+    background-color: black;
+
+    position: fixed;
+    top: 0;
+
+    width: 100%;
+
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-bottom: 100px;
+    padding-top: 8px;
+    
+    ul{
+        display: flex;
+        justify-content: space-around;
+        
+        list-style: none;
+
+        li{
+            .lista{
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+
+                text-decoration: none;
             }
         }
     }

@@ -3,29 +3,29 @@ import React from "react";
 import Imagen from './herramientas/Imagen'
 import Boton from './herramientas/Boton'
 
-import Chile from '../image/comidas/chile.jpg'
-import Mole from '../image/comidas/mole.jpg'
-import Pozole from '../image/comidas/pozole.jpg'
+import Fresa from '../image/bebidas/fresa.jpg'
+import Cacahuate from '../image/bebidas/cacahuate.jpg'
+import Arroz from '../image/bebidas/arroz.jpg'
 
-const ContenedorPlatillo = () => {
+const ContenedorDeBebidas = () => {
     let platillo = [
         {
             id: 1,
-            imagen: Chile,
-            nombre: "Chile",
-            precio: 40,
+            imagen: Fresa,
+            nombre: "Horchata de Fresa",
+            precio: 15,
         },
         {
             id: 2,
-            imagen: Mole,
-            nombre: "Mole",
-            precio: 90,
+            imagen: Cacahuate,
+            nombre: "Horchata de Cacahuate",
+            precio: 15,
         },
         {
             id: 3,
-            imagen: Pozole,
-            nombre: "Pozole",
-            precio: 80,
+            imagen: Arroz,
+            nombre: "Horchata de Arroz",
+            precio: 15,
         }
     ]
 
@@ -39,7 +39,7 @@ const ContenedorPlatillo = () => {
             }
 
             return(
-                <div className="contenedor">
+                <div className='contenedor'>
                     <div className="contenedor-platillo" key={platillo.id}>
                         <Imagen 
                             imagen={platillo.imagen}
@@ -65,4 +65,4 @@ const ContenedorPlatillo = () => {
     );
 };
 
-export default ContenedorPlatillo;
+export default ContenedorDeBebidas;

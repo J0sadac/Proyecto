@@ -1,20 +1,14 @@
 import React from 'react';
 
-//import NavBar from './components/NavBar'
-import ContenedorDePlatillos from './components/ContenedorDePlatillos'
+import Router from './components/herramientas/Router';
 
 import './styles/styles.scss';
 
 function App() {
   return (
     <div>
-      {/* <NavBar /> */}
       <h1 className='titulo'>Menu</h1>
-      
-      <div className='menu'>
-        <ContenedorDePlatillos />
-      </div>
-
+      <Router />
     </div>
   );
 }
